@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Desafiolatam_M5D3">
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />

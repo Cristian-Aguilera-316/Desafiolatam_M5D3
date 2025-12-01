@@ -8,10 +8,16 @@ const App = () => (
       <Container>
         <Navbar.Brand href="#">PokemonApp</Navbar.Brand>
         <Nav className="me-auto">
-          <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+          <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+          >
             Home
           </NavLink>
-          <NavLink to="/pokemones" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+          <NavLink
+            to="/pokemones"
+            className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+          >
             Pokemones
           </NavLink>
         </Nav>
